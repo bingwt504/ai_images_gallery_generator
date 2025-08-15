@@ -62,7 +62,7 @@ Only the first match is used.
 
 See also the `example_image_gallery.zip` for a full functioning example.
 
-The folder structure is designed naturally from the zipfiles you obtain with my other tool, https://github.com/bingwt504/bing-collection-downloader-pro : if you used this tool to download the images from Bing Image Creator, then you just need to unzip the files into the `images/` folder and run the `generate_gallery.py`. You can then remove the original zip files if you want.
+The folder structure is designed naturally from the zipfiles you obtain with my other tool, https://github.com/bingwt504/bing-collection-downloader-pro : if you used this tool to download the images from Bing Image Creator, then you just have to unzip the files into the `images/` folder and run the `generate_gallery.py`. You can then remove the original zip files if you want.
 
 ## License
 
