@@ -63,8 +63,7 @@ Only the first match is used.
 
 - See also the `example_image_gallery.zip` for a full functioning example.
   
-- The folder structure aligns perfectly with images downloaded using the **Bing Image Creator Collection Downloader Pro** (see https://github.com/bingwt504/bing-collection-downloader-pro). This means you can directly unzip the collections downloaded with the Downloader into the `images/` folder and generate a single HTML gallery from **multiple collections**.
-  Using both tools together provides a complete workflow:
+- The folder structure aligns perfectly with images downloaded using the **Bing Image Creator Collection Downloader Pro** (see https://github.com/bingwt504/bing-collection-downloader-pro). This means you can directly unzip the collections downloaded with the Downloader in subfolders into the `images/` folder and generate a single HTML gallery from **multiple collections**. Using both tools together provides a complete workflow:
   1. Download images and prompts with the Downloader.
   2. Organize and visualize them with the Gallery Generator.  
 
