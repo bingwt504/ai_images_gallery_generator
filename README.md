@@ -1,5 +1,5 @@
 # ai_images_gallery_generator
-Organize your AI-generated images and prompts into a versioned, searchable offline HTML gallery
+Organizes your AI-generated images and prompts into a versioned, searchable offline HTML gallery.
 
 `generate_gallery.py` is a Python script that scans a local `images/` folder, reads prompt text files, matches them with image files, and generates a **self-contained HTML gallery** with search, favorites, folder filtering, dark mode.
 
