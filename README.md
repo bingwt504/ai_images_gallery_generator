@@ -37,6 +37,11 @@ project-root/
 - `images/` can contain multiple subfolders.
 - Each `_prompt.txt` should have a matching image file starting with the same index number.
 
+## Requirements
+
+- Python 3.7+
+- basic dependencies like `os`, `re`, `urllib.parse`, `json`
+
 ## Usage
 
 1. **Place your images and prompt files** inside the `images/` folder, keeping them organized in subfolders if needed.
