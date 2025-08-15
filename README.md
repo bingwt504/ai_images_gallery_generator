@@ -36,7 +36,8 @@ project-root/
 ```
 - `images/` can contain multiple subfolders.
 - Each `_prompt.txt` should have a matching image file starting with the same index number.
---> **See also** the *example_image_gallery.zip* for a full functioning example.
+
+**See also** the *example_image_gallery.zip* for a full functioning example.
 
 ## Usage
 
