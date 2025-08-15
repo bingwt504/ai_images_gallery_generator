@@ -37,8 +37,6 @@ project-root/
 - `images/` can contain multiple subfolders.
 - Each `_prompt.txt` should have a matching image file starting with the same index number.
 
-**See also** the *example_image_gallery.zip* for a full functioning example.
-
 ## Usage
 
 1. **Place your images and prompt files** inside the `images/` folder, keeping them organized in subfolders if needed.
@@ -46,7 +44,7 @@ project-root/
    ```bash
    python generate_gallery.py
 3. **This will create**:
-   images_gallery.html
+   `images_gallery.html`
 4. Open the HTML file in your web browser.
 
 ## Matching Logic
@@ -54,6 +52,12 @@ project-root/
 A prompt file 123_prompt.txt will match the first image file in the same folder whose name starts with 123, optionally followed by space, hyphen, or underscore.
 Matching is case-insensitive.
 Only the first match is used.
+
+## Tips
+
+See also the `example_image_gallery.zip` for a full functioning example.
+
+The folder structure is designed naturally from the zipfiles you obtain with my other tool, https://github.com/bingwt504/bing-collection-downloader-pro : if you used this tool to download the images from Bing Image Creator, then you just need to unzip the files into the `images/` folder and run the `generate_gallery.py`. You can then remove the original zip files if you want.
 
 ## License
 
