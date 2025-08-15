@@ -61,9 +61,12 @@ Only the first match is used.
 
 ## Tips
 
-See also the `example_image_gallery.zip` for a full functioning example.
-
-The folder structure is designed naturally from the zipfiles you obtain with my other tool, https://github.com/bingwt504/bing-collection-downloader-pro : if you used this tool to download the images from Bing Image Creator, then you just have to unzip the files into the `images/` folder and run the `generate_gallery.py`. You can then remove the original zip files if you want.
+- See also the `example_image_gallery.zip` for a full functioning example.
+  
+- The folder structure aligns perfectly with images downloaded using the **Bing Image Creator Collection Downloader Pro** (see https://github.com/bingwt504/bing-collection-downloader-pro). This means you can directly unzip the collections downloaded with the Downloader into the `images/` folder and generate a single HTML gallery from **multiple collections**.
+  Using both tools together provides a complete workflow:
+  1. Download images and prompts with the Downloader.
+  2. Organize and visualize them with the Gallery Generator.  
 
 ## License
 
