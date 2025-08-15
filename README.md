@@ -5,7 +5,7 @@ Organize your AI-generated images and prompts into a versioned, searchable offli
 
 `generate_gallery.py` is a Python script that scans a local `images/` folder, reads prompt text files, matches them with image files, and generates a **self-contained HTML gallery** with search, favorites, folder filtering, dark mode.
 
-## ✨ Features
+## Features
 
 - **Automatic image & prompt pairing** — Matches `<index>_prompt.txt` with image files sharing the same `<index>` prefix.
 - **Multiple formats supported** — `.jpg`, `.jpeg`, `.png`, `.webp`, `.gif`.
@@ -19,7 +19,7 @@ Organize your AI-generated images and prompts into a versioned, searchable offli
   - Responsive grid layout with lazy-loaded images.
 - **Offline & portable** — The generated HTML file works locally without a server.
 
-## 📂 Folder Structure
+## Folder Structure
 
 Your working directory should look like this:
 ```
@@ -39,7 +39,7 @@ project-root/
 - `images/` can contain multiple subfolders.
 - Each `_prompt.txt` should have a matching image file starting with the same index number.
 
-## 🛠 Usage
+## Usage
 
 1. **Place your images and prompt files** inside the `images/` folder, keeping them organized in subfolders if needed.
 2. **Run the script**:
@@ -49,7 +49,7 @@ project-root/
    images_gallery.html
 4. Open the HTML file in your web browser.
 
-## 🔍 Matching Logic
+## Matching Logic
 
 A prompt file 123_prompt.txt will match the first image file in the same folder whose name starts with 123, optionally followed by space, hyphen, or underscore.
 Matching is case-insensitive.
