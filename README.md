@@ -22,19 +22,19 @@ Organize your AI-generated images and prompts into a versioned, searchable offli
 ## 📂 Folder Structure
 
 Your working directory should look like this:
-  
-  project-root/
-  ├─ generate_gallery.py
-  ├─ images/
-  │ ├─ folder1/
-  │ │ ├─ 001_prompt.txt
-  │ │ ├─ 001.jpg
-  │ │ ├─ 002_prompt.txt
-  │ │ └─ 002.png
-  │ └─ folder2/
-  │ ├─ 003_prompt.txt
-  │ ├─ 003.webp
-  │ └─ ...
+
+project-root/
+├─ generate_gallery.py
+├─ images/
+│ ├─ folder1/
+│ │ ├─ 001_prompt.txt
+│ │ ├─ 001.jpg
+│ │ ├─ 002_prompt.txt
+│ │ └─ 002.png
+│ └─ folder2/
+│ ├─ 003_prompt.txt
+│ ├─ 003.webp
+│ └─ ...
 
 - `images/` can contain multiple subfolders.
 - Each `_prompt.txt` should have a matching image file starting with the same index number.
@@ -55,6 +55,6 @@ A prompt file 123_prompt.txt will match the first image file in the same folder 
 Matching is case-insensitive.
 Only the first match is used.
 
-##📜 License
+## License
 
 This project is released under the MIT License. See LICENSE for details.
