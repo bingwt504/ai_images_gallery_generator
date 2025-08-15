@@ -28,11 +28,12 @@ project-root/
 │ │ ├─ 001_prompt.txt
 │ │ ├─ 001 My picture name.jpg
 │ │ ├─ 002_prompt.txt
-│ │ └─ 002_my_other_picture_name.png
+│ │ ├─  002_my_other_picture_name.png
+│ │ └─ ...
 │ └─ folder2/
-│ ├─ 003_prompt.txt
-│ ├─ 003 third pic name.webp
-│ └─ ...
+│ │ ├─ 003_prompt.txt
+│ │ ├─ 003 third pic name.webp
+│ │ └─ ...
 ```
 - `images/` can contain multiple subfolders.
 - Each `_prompt.txt` should have a matching image file starting with the same index number.
