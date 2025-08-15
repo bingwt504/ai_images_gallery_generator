@@ -1,0 +1,8 @@
+You need Python 3.7+.
+
+Phyton dependencies (modules):
+os    
+re   
+urllib.parse
+json
+You can install them with pip install (only few MB of space needed).
